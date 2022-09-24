@@ -58,7 +58,35 @@ package com.annacode.leetcode.leetcode.editor.cn;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] decrypt(int[] code, int k) {
-        return code;
+        int[] ret = new int[code.length];
+        if (k == 0){
+            return ret;
+        }
+        for (int i = 0 ; i < code.length ; i++){
+            for (int y = 1; y <= Math.abs(k) ; y++){
+                int a;
+                if (k<0){
+                    a = i-y;
+                }else {
+                    a = i+y;
+                }
+                if (a<0){
+                    a = code.length+a;
+                }else
+                if (a>=code.length){
+                    a = a-code.length;
+                }
+//                System.out.printf("[%d] : %d\t",a,code[a]);
+                ret[i] += code[a];
+            }
+//            System.out.printf("count:%d\n",ret[i]);
+        }
+        return ret;
     }
 }
+/*
+  解答成功:
+  	执行耗时:3 ms,击败了5.36% 的Java用户
+  	内存消耗:41.6 MB,击败了31.43% 的Java用户
+ */
 //leetcode submit region end(Prohibit modification and deletion)
