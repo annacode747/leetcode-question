@@ -56,7 +56,7 @@ package com.annacode.leetcode.leetcode.editor.cn;
 */
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution_defuse_the_bomb {
     public int[] decrypt(int[] code, int k) {
         int[] ret = new int[code.length];
         if (k == 0){

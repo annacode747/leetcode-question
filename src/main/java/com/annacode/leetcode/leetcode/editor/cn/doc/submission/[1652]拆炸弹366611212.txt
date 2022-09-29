@@ -1,0 +1,31 @@
+class Solution {
+    public int[] decrypt(int[] code, int k) {
+        int[] ret = new int[code.length];
+        if (k == 0){
+            return ret;
+        }
+        for (int i = 0 ; i < code.length ; i++){
+            for (int y = 1; y <= Math.abs(k) ; y++){
+                int a;
+                if (k<0){
+                    a = i-y;
+                }else {
+                    a = i+y;
+                }
+                if (a<0){
+                    a = code.length+a;
+                }else
+                if (a>=code.length){
+                    a = a-code.length;
+                }
+                System.out.printf("[%d] : %d\t",a,code[a]);
+                ret[i] += code[a];
+            }
+            System.out.printf("count:%d\n",ret[i]);
+        }
+        return ret;
+    }
+}
+
+//runtime:1120 ms
+//memory:42 MB
