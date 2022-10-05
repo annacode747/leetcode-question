@@ -38,7 +38,7 @@
 <div><div>Related Topics</div><div><li>数组</li><li>哈希表</li><li>矩阵</li></div></div><br><div><li>👍 119</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
+package com.annacode.leetcode.editor.cn;
 
 import java.util.HashMap;
 

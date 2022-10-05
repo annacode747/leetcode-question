@@ -43,7 +43,7 @@
 <div><div>Related Topics</div><div><li>数组</li><li>哈希表</li><li>字符串</li><li>计数</li></div></div><br><div><li>👍 126</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
+package com.annacode.leetcode.editor.cn;
 
 import java.util.ArrayList;
 import java.util.HashMap;

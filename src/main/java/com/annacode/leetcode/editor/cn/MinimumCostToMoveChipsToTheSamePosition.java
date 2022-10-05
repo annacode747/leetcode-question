@@ -57,7 +57,7 @@
 <div><div>Related Topics</div><div><li>贪心</li><li>数组</li><li>数学</li></div></div><br><div><li>👍 185</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
+package com.annacode.leetcode.editor.cn;
 public class MinimumCostToMoveChipsToTheSamePosition{
   public static void main(String[] args) {
        Solution solution = new MinimumCostToMoveChipsToTheSamePosition().new Solution();

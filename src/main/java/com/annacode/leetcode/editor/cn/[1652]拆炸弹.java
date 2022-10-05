@@ -1,4 +1,4 @@
-package com.annacode.leetcode.leetcode.editor.cn;
+package com.annacode.leetcode.editor.cn;
 
 /**
 <p>你有一个炸弹需要拆除，时间紧迫！你的情报员会给你一个长度为&nbsp;<code>n</code>&nbsp;的&nbsp;<strong>循环</strong>&nbsp;数组&nbsp;<code>code</code>&nbsp;以及一个密钥&nbsp;<code>k</code>&nbsp;。</p>

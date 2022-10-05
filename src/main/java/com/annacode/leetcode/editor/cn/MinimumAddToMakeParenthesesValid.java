@@ -43,9 +43,7 @@
 <div><div>Related Topics</div><div><li>栈</li><li>贪心</li><li>字符串</li></div></div><br><div><li>👍 218</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
-
-import java.util.Arrays;
+package com.annacode.leetcode.editor.cn;
 
 public class MinimumAddToMakeParenthesesValid{
     public static void main(String[] args) {

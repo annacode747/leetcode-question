@@ -1,4 +1,4 @@
-package com.annacode.leetcode.note;
+package com.annacode.note;
 
 /**
  * 第一节课，位运算

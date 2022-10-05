@@ -31,9 +31,7 @@
 <div><div>Related Topics</div><div><li>字符串</li><li>字符串匹配</li></div></div><br><div><li>👍 181</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
-
-import java.util.HashMap;
+package com.annacode.leetcode.editor.cn;
 
 public class StringRotationLcci{
   public static void main(String[] args) {

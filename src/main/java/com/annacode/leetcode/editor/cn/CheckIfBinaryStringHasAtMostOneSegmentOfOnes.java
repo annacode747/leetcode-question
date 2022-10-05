@@ -34,7 +34,7 @@
 <div><div>Related Topics</div><div><li>字符串</li></div></div><br><div><li>👍 40</li><li>👎 0</li></div>
 */
 
-package com.annacode.leetcode.leetcode.editor.cn;
+package com.annacode.leetcode.editor.cn;
 public class CheckIfBinaryStringHasAtMostOneSegmentOfOnes{
   public static void main(String[] args) {
        Solution solution = new CheckIfBinaryStringHasAtMostOneSegmentOfOnes().new Solution();
