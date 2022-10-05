@@ -79,6 +79,11 @@ public class MinimumAddToMakeParenthesesValid{
             }
             return i;
         }
+        /*
+        解答成功:
+	执行耗时:9 ms,击败了11.82% 的Java用户
+	内存消耗:42 MB,击败了5.08% 的Java用户
+         */
 
     }
 
